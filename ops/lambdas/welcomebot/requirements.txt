@@ -2,3 +2,5 @@ zappa
 flask
 slackeventsapi
 slackclient
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
